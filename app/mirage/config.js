@@ -14,4 +14,16 @@ export default function() {
   this.put('/items/:id');
   this.del('/items/:id');
 
+  this.get('/generations');
+  this.get('/generations/:id');
+  this.post('/generations');
+  this.put('/generations/:id');
+  this.del('/generations/:id');
+
+  this.get('/regions');
+  this.get('/regions/:id');
+  this.post('/regions');
+  this.put('/regions/:id');
+  this.del('/regions/:id');
+
 }
